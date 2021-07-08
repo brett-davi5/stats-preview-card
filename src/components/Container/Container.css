@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .container {
     border: 2px solid cyan;
     background-color: black;
@@ -5,40 +14,67 @@
     height: 400px;
     margin: 0 auto;
     color: white;
+    position: relative;
 }
 
 .contentBox {
     background-color: brown;
+    display: flex;
+    max-width: 90%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
 }
 
 .innerBox {
     width: 50%;
-    height: auto;
     border: 1px solid beige;
     box-sizing: border-box;
 }
 
 .textContainer {
-    background-color: orchid;
+    background-color: hsl(244, 38%, 16%);
+    height: auto;
     padding: 5px;
-    color: purple;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    font-weight: 400;
+}
+
+.textContainer p {
+    font-size: 10px;
 }
 
 .mainText {
-    background-color: royalblue;
-    margin: 0;
+    margin: 5px;
 }
 
 .subText {
-    background-color: royalblue;
-    margin: 0;
+    margin: 5px;
+}
+
+.littleBoxesContainer {
+    margin-top: 20px;
 }
 
 .littleBox {
-    border: 1px dotted aquamarine;
-    box-sizing: border-box;
     margin: 0;
-    background-color: royalblue;
     width: 33.3%;
     float: left;
+}
+
+.fancyText {
+    font-family: Inter;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.insights {
+    color: hsl(277, 64%, 61%);
+}
+
+.workersImage {
+    width: 300px;
+    height: 250px;
 }

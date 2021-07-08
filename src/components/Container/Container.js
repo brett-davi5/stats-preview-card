@@ -1,5 +1,6 @@
 import React from 'react';
 import './Container.css';
+import picture from '../../resources/Images/image-header-desktop.jpg';
 
 const Container = () => {
     return (
@@ -7,12 +8,9 @@ const Container = () => {
 
             <div className="contentBox">
                 <div className="innerBox">
-                    
                     <div className="textContainer">
-                        <div className="mainText">
-                            <h3>
-                                Get insights that help your business grow.
-                            </h3>
+                        <div className="mainText fancyText">
+                            <h3>Get <span className="insights">insights</span> that help your business grow.</h3>
                         </div>
                         <div className="subText">
                             <p>
@@ -24,15 +22,15 @@ const Container = () => {
 
                         <div className="littleBoxesContainer">
                             <div className="littleBox">
-                                <h3>10k+</h3>
+                                <h5 className="fancyText">10k+</h5>
                                 <p>COMPANIES</p>
                             </div>
                             <div className="littleBox">
-                                <h3>314</h3>
+                                <h5 className="fancyText">314</h5>
                                 <p>TEMPLATES</p>
                             </div>
                             <div className="littleBox">
-                                <h3>12M+</h3>
+                                <h5 className="fancyText">12M+</h5>
                                 <p>QUERIES</p>
                             </div>
                         </div>
@@ -43,7 +41,7 @@ const Container = () => {
                 </div>
 
                 <div className="innerBox">
-                    hello from box 2
+                    <img src={picture} alt="Workers at a meeting" className="workersImage"/>
                 </div>
             </div>
 
