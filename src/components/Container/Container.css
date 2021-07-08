@@ -1,0 +1,44 @@
+.container {
+    border: 2px solid cyan;
+    background-color: black;
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.contentBox {
+    background-color: brown;
+}
+
+.innerBox {
+    width: 50%;
+    height: auto;
+    border: 1px solid beige;
+    box-sizing: border-box;
+}
+
+.textContainer {
+    background-color: orchid;
+    padding: 5px;
+    color: purple;
+}
+
+.mainText {
+    background-color: royalblue;
+    margin: 0;
+}
+
+.subText {
+    background-color: royalblue;
+    margin: 0;
+}
+
+.littleBox {
+    border: 1px dotted aquamarine;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: royalblue;
+    width: 33.3%;
+    float: left;
+}
