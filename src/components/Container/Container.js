@@ -34,7 +34,6 @@ const Container = () => {
                                 <p>QUERIES</p>
                             </div>
                         </div>
-
                     </div>
 
 

@@ -2,11 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .container {
     border: 2px solid cyan;
     background-color: black;
@@ -23,7 +18,6 @@
     justify-content: center;
     align-items: center;
     max-width: 90%;
-    height: auto;
     margin: 0 auto;
     position: relative;
     top: 25%;
@@ -31,6 +25,7 @@
 
 .innerBox {
     width: 50%;
+    height: auto;
     background-color: hsl(244, 38%, 16%);
     border: 1px solid beige;
     box-sizing: border-box;
@@ -78,6 +73,6 @@
 }
 
 .workersImage {
-    width: 300px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
 }
