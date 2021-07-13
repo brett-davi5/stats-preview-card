@@ -20,6 +20,8 @@
 .contentBox {
     background-color: brown;
     display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 90%;
     height: auto;
     margin: 0 auto;
@@ -29,6 +31,7 @@
 
 .innerBox {
     width: 50%;
+    background-color: hsl(244, 38%, 16%);
     border: 1px solid beige;
     box-sizing: border-box;
 }
