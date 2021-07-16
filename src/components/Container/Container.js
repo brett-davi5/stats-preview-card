@@ -11,12 +11,10 @@ const Container = () => {
                     <div className="textContainer">
                         <div className="mainText fancyText">
                             <h3>Get <span className="insights">insights</span> that help your business grow.</h3>
-                        </div>
-                        <div className="subText">
                             <p>
-                                Discover the benefits of data analytics and make
-                                better decisions regarding revenue, customer
-                                experience, and overall efficiency.
+                            Discover the benefits of data analytics and make
+                            better decisions regarding revenue, customer
+                            experience, and overall efficiency.
                             </p>
                         </div>
 
